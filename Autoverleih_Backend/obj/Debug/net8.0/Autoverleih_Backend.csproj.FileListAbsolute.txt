@@ -104,3 +104,13 @@
 /home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/AutoMapper.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.sourcelink.json

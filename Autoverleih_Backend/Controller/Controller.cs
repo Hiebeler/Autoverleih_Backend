@@ -1,3 +1,6 @@
+using System.Security.Claims;
+using Autoverleih_Backend.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Autoverleih_Backend.Controller;
@@ -6,9 +9,11 @@ namespace Autoverleih_Backend.Controller;
 [ApiController]
 public class Controller: ControllerBase
 {
+    [Authorize]
     [HttpGet]
-    public async Task<ActionResult<String>> GetTodoItems()
+    public ActionResult<String> GetTodoItems()
     {
-        return "WORKS";
+        var userShort = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        return Ok(userShort);
     }    
 }

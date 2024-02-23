@@ -15,10 +15,15 @@ public class AuthController: ControllerBase
         _authService = authService;
     }
     
-    [HttpGet("Login")]
-    public async Task<ActionResult<String>> Login()
+    [HttpPost("Login")]
+    public async Task<ActionResult<String>> Login(LoginRequest request)
     {
-        return "WORKS";
+        ResultModel result = await _authService.Login(request);
+        if (!result) 
+        {
+            return BadRequest(result.Error);
+        }
+        return Ok((result as DataResult<String>)?.Data);
     }
     
     [HttpPost("Register")]
@@ -30,6 +35,6 @@ public class AuthController: ControllerBase
             return BadRequest(resultModel.Error);
         }
 
-        return Ok((resultModel as DataResult<UserDto>)!.Data);
+        return Ok((resultModel as DataResult<String>)!.Data);
     }   
 }

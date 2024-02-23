@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Autoverleih_Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae6d9add111a464828be946514b669f693611ddd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Autoverleih_Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Autoverleih_Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
