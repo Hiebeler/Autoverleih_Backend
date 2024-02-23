@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Autoverleih_Backend.props" />
+</Project>

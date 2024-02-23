@@ -1,0 +1,6 @@
+@Autoverleih_Backend_HostAddress = http://localhost:5137
+
+GET {{Autoverleih_Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
