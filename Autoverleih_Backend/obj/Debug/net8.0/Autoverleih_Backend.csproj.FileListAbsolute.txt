@@ -114,3 +114,9 @@
 /home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
 /home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.sourcelink.json
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/home/emanuel/Documents/school/SPL_INFI/Autoverleih_Backend/Autoverleih_Backend/bin/Debug/net8.0/Microsoft.Extensions.Options.dll

@@ -1,7 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Autoverleih_Backend.Models;
 
 public class LoginRequest
 {
-    public string Username { get; set; }
-    public string Password { get; set; }
+    [Required(ErrorMessage = "User Name is required")]
+    public string? Username { get; set; }
+
+    [Required(ErrorMessage = "Password is required")]
+    public string? Password { get; set; }
 }

@@ -13,7 +13,6 @@ public class Controller: ControllerBase
     [HttpGet]
     public ActionResult<String> GetTodoItems()
     {
-        var userShort = User.FindFirstValue(ClaimTypes.NameIdentifier);
-        return Ok(userShort);
+        return Ok("works");
     }    
 }
