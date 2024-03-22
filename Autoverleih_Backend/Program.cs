@@ -75,11 +75,15 @@ builder.Services.AddAuthentication(options =>
     });
 
 builder.Services.AddSingleton<IPasswordService, PasswordService>();
+builder.Services.AddScoped<ICarService, CarService>();
+
 
 builder.Services.AddAutoMapper(typeof(Autoverleih_Backend.Common.AutoMapper));
+builder.Services.AddCors();
 
 
 var app = builder.Build();
+app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

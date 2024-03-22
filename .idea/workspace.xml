@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c9031b6-b2c4-47b6-9545-a39a21efbe17" name="Changes" comment="" />
+    <list default="true" id="6c9031b6-b2c4-47b6-9545-a39a21efbe17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Autoverleih_Backend/Controller/CarController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Autoverleih_Backend/Controller/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/Controller/Controller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/bin/Debug/net8.0/Autoverleih_Backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/bin/Debug/net8.0/Autoverleih_Backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/bin/Debug/net8.0/Autoverleih_Backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/bin/Debug/net8.0/Autoverleih_Backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/Autoverleih_Backend.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/ref/Autoverleih_Backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/ref/Autoverleih_Backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/refint/Autoverleih_Backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Autoverleih_Backend/obj/Debug/net8.0/refint/Autoverleih_Backend.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,25 +25,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2czjFFf2cStnKkajmMBxWV6mmxp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709121197253</updated>
       <workItem from="1709121200191" duration="11000" />
+      <workItem from="1711109571769" duration="21000" />
     </task>
     <servers />
   </component>
