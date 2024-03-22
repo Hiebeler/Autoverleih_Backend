@@ -76,7 +76,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddSingleton<IPasswordService, PasswordService>();
 builder.Services.AddScoped<ICarService, CarService>();
-builder.Services.AddSingleton<IGenericRepository<Car>, GenericRepository<Car>>();
+builder.Services.AddScoped<IGenericRepository<Car>, GenericRepository<Car>>();
 
 
 builder.Services.AddAutoMapper(typeof(Autoverleih_Backend.Common.AutoMapper));

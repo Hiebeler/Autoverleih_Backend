@@ -1,4 +1,5 @@
 using System.Linq.Expressions;
+using Autoverleih_Backend.Db.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
@@ -6,9 +7,9 @@ namespace urlaubsplanungstool_backend.Db.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private readonly DbContext _dbContext;
+        private readonly ApplicationDbContext _dbContext;
 
-        public GenericRepository(DbContext dbContext)
+        public GenericRepository(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }

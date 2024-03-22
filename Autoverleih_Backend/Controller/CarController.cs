@@ -24,7 +24,7 @@ public class CarController : ControllerBase
     }
 
     [Authorize]
-    [HttpGet]
+    [HttpPost]
     public async Task<ActionResult<Car>> CreateCar(CreateCarRequest createCarRequest)
     {
         var success = await _carService.CreateCar(createCarRequest);
