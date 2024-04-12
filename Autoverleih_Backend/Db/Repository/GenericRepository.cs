@@ -32,6 +32,7 @@ namespace urlaubsplanungstool_backend.Db.Repositories
         public async Task<T> Add(T entity)
         {
             EntityEntry<T> addedEntity =  await _dbContext.Set<T>().AddAsync(entity);
+            _dbContext.SaveChanges();
             return addedEntity.Entity;
         }
 

@@ -2,6 +2,7 @@ using Autoverleih_Backend.Models;
 using Autoverleih_Backend.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using urlaubsplanungstool_backend.Db.Repositories;
 
 namespace Autoverleih_Backend.Controller;
 
@@ -10,17 +11,19 @@ namespace Autoverleih_Backend.Controller;
 public class CarController : ControllerBase
 {
     private readonly ICarService _carService;
+    private readonly IGenericRepository<Car> _genericRepository;
 
-    public CarController(ICarService carService)
+    public CarController(ICarService carService, IGenericRepository<Car> genericRepository)
     {
         _carService = carService;
+        _genericRepository = genericRepository;
     }
 
     [Authorize]
     [HttpGet]
-    public ActionResult<List<String>> GetAllCars()
+    public async Task<ActionResult<List<Car>>> GetAllCars()
     {
-        return new List<String>() { "Volvo", "Audi", "BMW" };
+        return await _genericRepository.GetAll();
     }
 
     [Authorize]
